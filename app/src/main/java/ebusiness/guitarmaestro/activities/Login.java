@@ -9,19 +9,31 @@ import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import ebusiness.guitarmaestro.R;
 
-public class Login extends AppCompatActivity {
+public class Login extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        ImageView login = findViewById(R.id.login_btn);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Login.this, Home.class);
+                startActivity(i);
+                finish();
+            }
+        });
+
         TextView textView = findViewById(R.id.signup_text);
 
         SpannableString ss = new SpannableString("Don't have an account? Signup here.");
