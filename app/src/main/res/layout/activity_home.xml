@@ -26,7 +26,7 @@
         app:layout_constraintGuide_begin="117dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/design_btn"
         android:layout_width="408dp"
         android:layout_height="137dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline30"
@@ -51,7 +51,7 @@
         app:layout_constraintGuide_begin="395dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/guitarParts_btn"
         android:layout_width="408dp"
         android:layout_height="137dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline27"
@@ -140,7 +140,7 @@
         android:layout_width="207dp"
         android:layout_height="43dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline27"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/guitarParts_btn"
         app:layout_constraintStart_toStartOf="@+id/guideline28"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:layout_constraintVertical_bias="0.0"
