@@ -4,4 +4,12 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#F2B680</color>
     <color name="createNewAccount">#4BA9E7</color>
+    <color name="hint">#4D4D4D</color>
+    <color name="pinky">#FFACAC</color>
+    <color name="yellow">#ffed8e</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="green">#c0ffd5</color>
+    <color name="blueksy">#87ceeb</color>
+    <color name="pinkylight">#FFDAE0</color>
+    <color name="dark">#000000</color>
 </resources>
