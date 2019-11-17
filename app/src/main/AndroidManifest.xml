@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.Design"></activity>
+        <activity android:name=".activities.BassNecks"></activity>
+        <activity android:name=".activities.Bodies" />
+        <activity android:name=".activities.Knobs" />
+        <activity android:name=".activities.GuitarNecks" />
+        <activity android:name=".activities.shop" />
+        <activity android:name=".activities.Design" />
         <activity android:name=".activities.Home" />
         <activity android:name=".activities.CreateAccount" />
         <activity android:name=".activities.Login" />
@@ -21,6 +26,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
