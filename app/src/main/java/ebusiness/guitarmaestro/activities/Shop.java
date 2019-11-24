@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import ebusiness.guitarmaestro.R;
 
-public class shop extends AppCompatActivity {
+public class Shop extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

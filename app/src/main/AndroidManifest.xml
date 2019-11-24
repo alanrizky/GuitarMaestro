@@ -13,7 +13,7 @@
         <activity android:name=".activities.Bodies" />
         <activity android:name=".activities.Knobs" />
         <activity android:name=".activities.GuitarNecks" />
-        <activity android:name=".activities.shop" />
+        <activity android:name=".activities.Shop" />
         <activity android:name=".activities.Design" />
         <activity android:name=".activities.Home" />
         <activity android:name=".activities.CreateAccount" />

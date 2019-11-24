@@ -16,8 +16,10 @@
         android:textColor="#4BA9E7"
         android:textSize="60sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="34dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/guideline11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline11"
@@ -41,8 +43,10 @@
         android:text="Username"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="194dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <TextView
         android:id="@+id/password_field"
@@ -52,8 +56,10 @@
         android:text="Password"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="245dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline13" />
 
     <TextView
         android:id="@+id/kota_field"
@@ -63,8 +69,10 @@
         android:text="Kota"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="441dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline18"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline17" />
 
     <TextView
         android:id="@+id/nama_field"
@@ -74,8 +82,10 @@
         android:text="Nama"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="296dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline15"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline14" />
 
     <TextView
         android:id="@+id/provinsi_field"
@@ -85,8 +95,10 @@
         android:text="Provinsi"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="392dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline16" />
 
     <TextView
         android:id="@+id/kodePos_field"
@@ -96,8 +108,10 @@
         android:text="Kode Pos"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="487dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline19"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline18" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline13"
@@ -156,8 +170,10 @@
         android:text="Alamat"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="534dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline20"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline20"
@@ -174,18 +190,20 @@
         app:layout_constraintGuide_begin="174dp" />
 
     <EditText
-        android:hint="Username"
-        android:textColorHint="@color/hint"
         android:id="@+id/username_input"
         android:layout_width="181dp"
         android:layout_height="51dp"
         android:backgroundTint="@color/createNewAccount"
         android:ems="10"
         android:fontFamily="@font/roboto_thin"
+        android:hint="Username"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="185dp" />
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline22"
@@ -195,107 +213,122 @@
         app:layout_constraintGuide_begin="196dp" />
 
     <EditText
-        android:hint="password"
-        android:textColorHint="@color/hint"
         android:id="@+id/password_input"
         android:layout_width="181dp"
         android:layout_height="51dp"
         android:backgroundTint="@color/createNewAccount"
         android:ems="10"
         android:fontFamily="@font/roboto_thin"
+        android:hint="password"
         android:inputType="textPersonName|textPassword"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="236dp" />
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toTopOf="@+id/guideline14"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/guideline13" />
 
     <EditText
-        android:hint="Nama"
-        android:textColorHint="@color/hint"
         android:id="@+id/nama_input"
         android:layout_width="181dp"
         android:layout_height="51dp"
         android:backgroundTint="@color/createNewAccount"
         android:ems="10"
         android:fontFamily="@font/roboto_thin"
+        android:hint="Nama"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="287dp" />
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toTopOf="@+id/guideline15"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/guideline14" />
 
     <EditText
-        android:hint="someone@email.com"
-        android:textColorHint="@color/hint"
         android:id="@+id/email_input"
         android:layout_width="181dp"
         android:layout_height="46dp"
         android:backgroundTint="@color/createNewAccount"
         android:ems="10"
         android:fontFamily="@font/roboto_thin"
+        android:hint="someone@email.com"
         android:inputType="textPersonName|textEmailAddress"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="338dp" />
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/guideline15" />
 
     <EditText
-        android:hint="Provinsi"
-        android:textColorHint="@color/hint"
         android:id="@+id/provinsi_input"
         android:layout_width="181dp"
         android:layout_height="49dp"
         android:backgroundTint="@color/createNewAccount"
         android:ems="10"
         android:fontFamily="@font/roboto_thin"
+        android:hint="Provinsi"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="384dp" />
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/guideline16" />
 
     <EditText
-        android:hint="Kota"
-        android:textColorHint="@color/hint"
         android:id="@+id/kota_input"
         android:layout_width="181dp"
         android:layout_height="48dp"
         android:backgroundTint="@color/createNewAccount"
         android:ems="10"
         android:fontFamily="@font/roboto_thin"
+        android:hint="Kota"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="433dp" />
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toTopOf="@+id/guideline18"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/guideline17" />
 
     <EditText
-        android:hint="Kode Pos"
-        android:textColorHint="@color/hint"
         android:id="@+id/kodePos_input"
         android:layout_width="181dp"
         android:layout_height="44dp"
         android:backgroundTint="@color/createNewAccount"
         android:ems="10"
+        android:fontFamily="@font/roboto_thin"
+        android:hint="Kode Pos"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="481dp"
-        android:fontFamily="@font/roboto_thin" />
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toTopOf="@+id/guideline19"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/guideline18" />
 
     <ImageView
         android:id="@+id/create_btn"
         android:layout_width="183dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/create_account_button"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="602dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/guideline20"
+        app:layout_constraintVertical_bias="0.29000002"
+        app:srcCompat="@drawable/create_account_button" />
 
     <TextView
         android:id="@+id/email_field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_bold"
         android:text="Email"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="345dp"
-        android:fontFamily="@font/roboto_condensed_bold" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline15" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline23"
@@ -305,16 +338,18 @@
         app:layout_constraintGuide_begin="377dp" />
 
     <EditText
-        android:hint="Alamat"
-        android:textColorHint="@color/hint"
         android:id="@+id/alamat_input"
         android:layout_width="181dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/createNewAccount"
         android:ems="10"
         android:fontFamily="@font/roboto_thin"
+        android:hint="Alamat"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="525dp" />
+        android:textColorHint="@color/hint"
+        app:layout_constraintBottom_toTopOf="@+id/guideline20"
+        app:layout_constraintEnd_toStartOf="@+id/guideline23"
+        app:layout_constraintStart_toStartOf="@+id/guideline22"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,59 +5,120 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/black"
-    tools:context=".activities.shop">
+    tools:context=".activities.Shop">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="138dp"
         android:layout_height="73dp"
-        app:srcCompat="@drawable/group_1"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline49"
+        app:layout_constraintEnd_toStartOf="@+id/guideline44"
+        app:layout_constraintStart_toStartOf="@+id/guideline43"
+        app:layout_constraintTop_toTopOf="@+id/guideline48"
+        app:srcCompat="@drawable/group_1" />
 
     <Button
         android:id="@+id/buttonBodies"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:backgroundTint="@color/yellow"
+        app:srcCompat = "@drawable/item_desc"
         android:fontFamily="@font/roboto_thin"
         android:text="Bodies"
         android:textColor="@android:color/black"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="187dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline44"
+        app:layout_constraintTop_toTopOf="@+id/guideline45" />
 
     <Button
         android:id="@+id/buttonKnobs"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:backgroundTint="@color/pinkylight"
         android:fontFamily="@font/roboto_thin"
+
         android:text="Knobs"
         android:textColor="@color/dark"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="187dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline46"
+        app:layout_constraintEnd_toStartOf="@+id/guideline44"
+        app:layout_constraintStart_toStartOf="@+id/guideline43"
+        app:layout_constraintTop_toTopOf="@+id/guideline45"
+        app:srcCompat="@drawable/item_desc" />
 
     <Button
         android:id="@+id/buttonGuitarHead"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@color/blueksy"
         android:fontFamily="@font/roboto_thin"
         android:text="Guitar head"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="187dp" />
+        app:srcCompat = "@drawable/item_desc"
+        app:layout_constraintBottom_toTopOf="@+id/guideline46"
+        app:layout_constraintEnd_toStartOf="@+id/guideline43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline45" />
 
     <Button
         android:id="@+id/buttonBassNecks"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:backgroundTint="@color/green"
+        app:srcCompat="@drawable/item_desc"
         android:fontFamily="@font/roboto_thin"
         android:text="Bass Necks"
         android:textColor="@color/dark"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="315dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline47"
+        app:layout_constraintEnd_toStartOf="@+id/guideline43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline46" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="150dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="264dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="187dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="303dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="423dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="89dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
