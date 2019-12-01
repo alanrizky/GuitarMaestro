@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.BassNecks"></activity>
+        <activity android:name=".activities.GuitarBodies"></activity>
+        <activity android:name=".activities.Payment" />
+        <activity android:name=".activities.Cart" />
+        <activity android:name=".activities.BassNecks" />
         <activity android:name=".activities.Bodies" />
         <activity android:name=".activities.Knobs" />
         <activity android:name=".activities.GuitarNecks" />

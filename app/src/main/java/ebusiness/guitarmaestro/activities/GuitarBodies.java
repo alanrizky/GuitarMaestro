@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import ebusiness.guitarmaestro.R;
 
-public class Bodies extends AppCompatActivity {
+public class GuitarBodies extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import ebusiness.guitarmaestro.R;
+
 public class GuitarNecks extends AppCompatActivity {
 
     @Override
