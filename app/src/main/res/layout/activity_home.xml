@@ -31,9 +31,10 @@
         android:layout_height="137dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline30"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline29"
-        app:layout_constraintVertical_bias="0.192"
+        app:layout_constraintVertical_bias="0.85"
         app:srcCompat="@drawable/design_guitar" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -56,16 +57,11 @@
         android:layout_height="137dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline27"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline26"
+        app:layout_constraintVertical_bias="0.068"
         app:srcCompat="@drawable/rectangle_4" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="620dp" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -73,11 +69,41 @@
         android:layout_height="141dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline27"
         app:layout_constraintEnd_toStartOf="@+id/guideline28"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline26"
-        app:layout_constraintVertical_bias="0.549"
+        app:layout_constraintVertical_bias="0.178"
         app:srcCompat="@drawable/mask_group_1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="76dp"
+        android:layout_height="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline28"
+        app:layout_constraintTop_toTopOf="@+id/guideline26"
+        app:layout_constraintVertical_bias="0.093"
+        app:srcCompat="@drawable/buy" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="207dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline27"
+        app:layout_constraintEnd_toEndOf="@+id/guitarParts_btn"
+        app:layout_constraintStart_toStartOf="@+id/guideline28"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.016"
+        app:srcCompat="@drawable/guitar_parts" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="527dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline28"
@@ -100,26 +126,28 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="399dp" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="76dp"
-        android:layout_height="44dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline27"
+    <TextView
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/beautifulheart"
+        android:text="Cart"
+        android:textColor="@color/pinkylight"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline24"
         app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.663"
+        app:layout_constraintStart_toEndOf="@+id/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
         app:layout_constraintHorizontal_bias="0.37"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline26"
         app:layout_constraintVertical_bias="0.26999998"
         app:srcCompat="@drawable/buy" />
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="207dp"
-        android:layout_height="43dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline27"
-        app:layout_constraintEnd_toEndOf="@+id/guitarParts_btn"
-        app:layout_constraintStart_toStartOf="@+id/guideline28"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/guitar_parts" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
