@@ -29,13 +29,13 @@ public class Home extends AppCompatActivity {
             }
         });
 
-//        ImageView design = findViewById(R.id.design_btn);
-//        design.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent i = new Intent(Home.this, Design.class);
-//                startActivity(i);
-//            }
-//        });
+        ImageView buy = findViewById(R.id.guitarParts_btn);
+        buy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Home.this, Shop.class);
+                startActivity(i);
+            }
+        });
     }
 }
