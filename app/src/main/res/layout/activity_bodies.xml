@@ -21,20 +21,22 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:fontFamily="@font/robotoregular"
         android:text="Guitar Bodies"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/guideline53"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline52"
+        app:layout_constraintTop_toTopOf="@+id/guideline56" />
 
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="1005px"
         android:layout_height="329px"
-        android:layout_marginEnd="12dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline54"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline52"
         app:layout_constraintTop_toTopOf="@+id/guideline53"
         app:srcCompat="@drawable/guitarbody1" />
@@ -43,8 +45,8 @@
         android:id="@+id/imageView16"
         android:layout_width="1005px"
         android:layout_height="329px"
-        android:layout_marginStart="16dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline55"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline54"
         app:srcCompat="@drawable/guitarbody2" />
@@ -85,5 +87,28 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/addtocartbtn"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline62"
+        app:layout_constraintTop_toTopOf="@+id/guideline61" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="205dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="606dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

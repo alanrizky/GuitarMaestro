@@ -34,6 +34,8 @@
         android:layout_height="329px"
         android:layout_marginStart="16dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline48"
         app:srcCompat="@drawable/guitarneck1" />
@@ -43,6 +45,8 @@
         android:layout_width="1005px"
         android:layout_height="329px"
         app:layout_constraintBottom_toTopOf="@+id/guideline51"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline47"
         app:layout_constraintTop_toTopOf="@+id/guideline50"
         app:srcCompat="@drawable/guitarneck2" />

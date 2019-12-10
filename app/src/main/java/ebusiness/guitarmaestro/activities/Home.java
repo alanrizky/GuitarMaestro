@@ -7,6 +7,9 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 import ebusiness.guitarmaestro.R;
 
@@ -34,6 +37,15 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Home.this, Shop.class);
+                startActivity(i);
+            }
+        });
+
+        TextView cart = findViewById(R.id.cart);
+        cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Home.this, Cart.class);
                 startActivity(i);
             }
         });
